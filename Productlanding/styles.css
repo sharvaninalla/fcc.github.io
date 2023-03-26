@@ -1,0 +1,260 @@
+body{
+  display:block;
+  background-color:#f4f5f6;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+}
+
+nav{
+  float:left;
+  width:100%;
+  margin:0;
+  overflow:hidden;
+  text-align:center;
+  //font-weight:400;
+}
+
+#nav-bar{
+  background-color:#f4f5f6;
+  overflow: hidden;
+  position: fixed; 
+  top: 0;
+  width: 100%; 
+  height: 70px;
+  position:fixed;
+  margin-left:80px;
+}
+
+nav > ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+}
+
+nav ul li{
+  display:inline-flex;
+  padding:0 20px;
+}
+
+header{
+  font-family:Roboto,sans-serif;
+  color:#f4f5f6;
+  display:flex;
+}
+
+@media (max-width: 600px)
+header{
+    flex-wrap: wrap;
+}
+
+h4{
+  font-size:1.5rem;
+  color:#b82677;
+}
+
+#header-img{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    overflow: hidden;   
+    float:left;
+    position:fixed;
+    display:inline-block;
+    margin:0;
+}
+
+#nav-bar a {
+  float: left;
+  padding: 20px;
+  color: #221f20;
+  text-decoration: none;
+  font-size: 20px;
+  width: 25%;
+  text-align: center;
+  font-family:Garamond, serif;
+
+}
+
+#nav-bar a:hover {
+  color: #ec7545;
+}
+
+@media screen and (max-width: 500px) {
+  #nav-bar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+#main{
+  display:block;
+  margin:220px 0;
+  text-align:center;
+}
+
+h1{
+  font-size:60px;
+  font-family:Garamond, serif;
+  margin:20px auto;
+}
+
+.a{
+  margin:20px 20px;
+  font-size:20px;
+  font-style:italic;
+  font-family:Garamond, serif;
+}
+
+input[type="email"]{
+  border-radius:10px;
+  border:none;
+  padding:10px 50px;
+  background:#white;
+}
+
+input[type="submit"]{
+  border:none;
+  border-radius:20px;
+  text-align:center;
+  font-family:Arial, sans-serif;
+  padding:15px 40px;
+  color:white;
+  background:radial-gradient(circle, rgba(255,81,161,1) 0%, rgba(233,208,148,1) 100%);
+  margin:8px 300px;
+  
+}
+
+::placeholder{
+  font-family:Arial, sans-serif;
+}
+
+#about-us{
+  text-align:center;
+  font-size:22px;
+  font-family:Garamond, serif;
+  margin:20px 150px;
+}
+
+#video{
+  width:500;
+  height:240;
+}
+
+.b, .c, .hy{
+  text-align:center;
+  font-family:Garamond, serif;
+  font-size:20px;
+}
+
+h2{
+  text-align:center;
+  font-size:30px;
+  font-family:Garamond, serif;
+}
+
+.hytitle{
+  text-align:center;
+  font-style:Arial;
+  font-size:22px;
+  margin:0 10px auto;
+}
+
+#our-classes{
+  margin-top:150px;
+  margin-bottom:100px;
+}
+
+.hatha-yoga {
+  background-color: lightgrey;
+  width: 900px;
+  border: 15px solid transparent;
+  border-radius:30px;
+  padding:50px;
+  margin: auto 130px;
+  text-align:center;
+  align-items:center;
+}
+
+.hathaimg{
+  height:300px;
+  width:400px;
+  //float:right;
+  padding:20px;
+}
+
+.left, .right{
+  margin:auto 15px;
+  font-family:Garamond, serif;
+  line-height:1.5em;
+  font-size:20px;
+}
+
+#container{
+  margin-top:30px;
+}
+
+#headprice{
+  margin-top:150px;
+}
+
+.headcontacts{
+  text-align:center;
+  position:relative;
+  font-size:40px;
+  display:block;
+}
+
+.address, .mail, .phone{
+  font-family:Garamond, serif;
+  font-size:22px;
+  text-align:center;
+}
+
+.division{
+  margin-top:30px;
+}
+
+.footer {
+  position:relative;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 70px;
+  background-color: #f4f5f6;
+}
+
+.footer-menu{
+  float: right;
+}
+
+.footer-menu ul{
+  display: flex;
+}
+
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+
+.footer-menu ul li a{
+  color: #221f20;
+  text-decoration: none;
+  font-family:Garamond, serif;
+  font-size:18px;
+}
+
+.footer-menu ul li a:hover{
+  color: #ec7545;
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+}
